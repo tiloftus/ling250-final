@@ -31,5 +31,14 @@ This data is not published as part of this repository. It can be downloaded thro
 The code for the project is contained in a single file: final_analysis.ipynb. This file downloads the data, performs PCA dimensionality reduction, and creates charts and regression models to answer the research question.
 Once the data is properly downloaded, all code cells can easily be run cleanly from top to bottom.
 
+This code:
+* Loads the State of the Union speech corpus from NLTK and organizes speeches by year and president
+* Uses spaCy to perform part-of-speech tagging and linguistic parsing
+* Computes readability metrics for each speech using textstat (e.g., Flesch Reading Ease, grade level)
+* Builds a structured pandas DataFrame containing linguistic features and  readability scores
+* Visualizes trends over time with matplotlib
+* Fits statistical models in statsmodels: an OLS regression model to test trends over time and a mixed-effects models to account for clustering by president
+* Outputs tables and figures used in the paper
+
 ## License
 This research project and the associated code is licensed under the MIT License - see LICENSE for more details.
