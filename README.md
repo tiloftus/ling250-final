@@ -12,6 +12,10 @@ The State of the Union address, delivered annually as an address from the presid
 
 We computationally analyze presidential addresses to discern how political speech has changed over time. Politicians aim to meet people where they are; in other words, they attempt to match the tone and language of public discourse. Assessing how they communicate reveals how people process and engage with politics, and how they receive information through the media landscape.
 
+## Respository Structure
+
+The repository for this project follows a very simple structure. The images folder contains the image files used in the paper. The file final_analysis.ipynb contains all code used for the project. 
+
 ## Data
 
 This project combines speeches from two sources:
@@ -20,7 +24,7 @@ NLTK State of the Union Corpus (1945-2006 speeches) (https://www.nltk.org/instal
 American Presidency Project (1900-1944, 2007-2026) (https://www.presidency.ucsb.edu/documents/presidential-documents-archive-guidebook/annual-messages-congress-the-state-the-union#Table%20of%20SOTU)
 
 These were merged into a single dataset covering 1900–2026.
-This data is not published as part of this repository. It can be downloaded through the links above.
+This data is not published as part of this repository. It can be downloaded through the links above. To download the TAPP data, simply access the linked speech for each year and copy the results into a plain text (.txt) file. For the NLTK data, final_analysis.ipynb can be used to download the speeches.
 
 ## Code
 
