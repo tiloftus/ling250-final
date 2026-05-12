@@ -1,0 +1,16 @@
+name: sotu_complexity
+channels:
+  - defaults
+dependencies:
+  - python=3.10.19
+  - pip
+  - pip:
+      - nltk
+      - spacy
+      - textstat
+      - pandas
+      - scikit-learn
+      - statsmodels
+      - matplotlib
+      - re
+      - lumpy
