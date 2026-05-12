@@ -25,6 +25,7 @@ American Presidency Project (1900-1944, 2007-2026) (https://www.presidency.ucsb.
 
 These were merged into a single dataset covering 1900–2026.
 This data is not published as part of this repository. It can be downloaded through the links above. To download the TAPP data, simply access the linked speech for each year and copy the results into a plain text (.txt) file. For the NLTK data, final_analysis.ipynb can be used to download the speeches.
+
 The data contains over 900,000 words across 125 speeches.
 
 ## Code
