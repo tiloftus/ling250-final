@@ -6,6 +6,12 @@ To answer this, the project measures multiple well-established indicators of syn
 
 The core finding is that, across a wide range of syntactic metrics, State of the Union speeches show a consistent historical shift toward structurally simpler sentences.
 
+## Introduction
+
+The State of the Union address, delivered annually as an address from the president to Congress, is one of the most recognizable, standard, and public rituals in American politics. The president reports on the condition of the nation, outlines priorities, and communicates policy to both Congress and the public. While the political content of these speeches has changed dramatically from George Washington’s 1790 address to Donald Trump’s 2026 speech, the genre itself has remained remarkably stable: a formal, recurring address intended to explain complex national issues to a broad audience. State of the Union records serve as a 236-year time capsule, allowing us to analyze political speech over time.
+
+We computationally analyze presidential addresses to discern how political speech has changed over time. Politicians aim to meet people where they are; in other words, they attempt to match the tone and language of public discourse. Assessing how they communicate reveals how people process and engage with politics, and how they receive information through the media landscape.
+
 ## Data
 
 This project combines speeches from two sources:
@@ -20,3 +26,6 @@ This data is not published as part of this repository. It can be downloaded thro
 
 The code for the project is contained in a single file: final_analysis.ipynb. This file downloads the data, performs PCA dimensionality reduction, and creates charts and regression models to answer the research question.
 Once the data is properly downloaded, all code cells can easily be run cleanly from top to bottom.
+
+## License
+This research project and the associated code is licensed under the MIT License - see LICENSE for more details.
